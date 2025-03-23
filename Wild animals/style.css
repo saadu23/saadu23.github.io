@@ -1,0 +1,70 @@
+p {
+  max-width: 600px;
+  word-wrap: break-word;
+  white-space: pre-line;
+  line-height: 1.5;
+  text-align:justify;
+}
+
+nav {
+  background-color: #222; /* Dark background */
+  padding: 15px 0;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center the links */
+  align-items: center;
+  gap: 30px; /* Space between items */
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: yellow; /* Keep the yellow text */
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 20px;
+  transition: color 0.3s ease, background 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: black;
+  background: yellow;
+  border-radius: 5px;
+  av ul li a {
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background: yellowgreen;
+    padding: 10px;
+    list-style: none;
+    top: 100%;
+    left: 0;
+    min-width: 150px;
+}
+
+.dropdown-menu li {
+    margin: 5px 0;
+}
+
+.dropdown-menu li a {
+    color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+}
